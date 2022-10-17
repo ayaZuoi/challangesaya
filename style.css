@@ -1,0 +1,142 @@
+
+@import url('https://css.gg/shopping-cart.css');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    height: 1440px;
+    
+}
+
+
+.card{
+  border-top-left-radius: 42px;
+border-top-right-radius: 38px;
+border-bottom-right-radius: 38px;
+border-bottom-left-radius: 39px;
+
+    display: grid; 
+    position: absolute;
+  grid-template-columns: 0.8fr 0.8fr; 
+ 
+
+ 
+ 
+  gap: 0px 0px; 
+  
+    
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+/*                                                       */
+
+
+    
+    
+}
+.bic-perfum{
+  background-image: url(images/image-product-desktop.jpg);
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+
+
+
+
+.per-describtion{
+  padding: 3rem;
+ 
+}
+.fist-heading{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  color:  hsl(228, 12%, 48%);
+  
+}
+.sceond-heading{
+  font-size:3rem ;
+  font-weight: bolder;
+}
+.paragraph{
+
+  font-weight: lighter;
+  color: hsl(228, 12%, 48%);
+
+}
+.prices{
+  display: grid; 
+  grid-template-columns: 0.3fr 0.3fr; 
+  grid-template-rows: 0.5fr; 
+  gap: 0px 10px; 
+
+  
+ 
+}
+
+.after-discount{
+
+  font-size:3rem;
+  color: hsl(158, 36%, 37%);
+
+}
+.befor-discount{
+  
+  text-decoration-line: line-through;
+ color:  hsl(212, 21%, 14%);
+ font-weight: lighter;
+  
+}
+.btn{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+ 
+ gap: 20px;
+ text-align: center;
+ padding: 15px 20px 20px 73px;
+ background-color: #053b28;
+ color: white;
+border-radius: 10px 10px 10px 10px ;
+font-weight: bolder;
+
+
+}
+@media screen and (max-width:700px) {
+ 
+  .card{
+    padding: 0;
+    display: grid; 
+    grid-template-columns: 0.8fr; 
+    grid-template-rows: 1fr 1fr ; 
+    gap: 0px 0px; 
+    
+      margin-top: auto;
+      margin-bottom: auto;
+      
+      
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .bic-perfum{
+    display: block;
+    border-radius: 0;
+    background-image: url(images/image-product-mobile.jpg);
+  
+  }
+  
+ 
+}
